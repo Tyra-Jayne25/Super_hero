@@ -36,10 +36,6 @@ print(hero_0)
 hero_0["Strength"] = 100
 print(hero_0)
 
-popped_item = hero_0.pop("Power")
-print(hero_0)
-print(popped_item)
-
 print("Superhero 1 stats \n")
 for i in hero_0:
     print(i, ":", hero_0[i])
