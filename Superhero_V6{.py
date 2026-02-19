@@ -10,7 +10,6 @@ hero_1 = {
     "Strength": 85,
     "Speed": 80
 }
-
 hero_list = [hero_0, hero_1]
 print (hero_list)
 
@@ -44,5 +43,9 @@ print(popped_item)
 print("Superhero 1 stats \n")
 for i in hero_0:
     print(i, ":", hero_0[i])
+
+print("Superhero 2 stats \n")
+for i in hero_1:
+    print(i, ":", hero_1[i])
 
 
