@@ -4,6 +4,16 @@ hero_0 = {
     "Strength": 100,
 }
 
+hero_1 = {
+    "Name": "batman",
+    "Power": "intellect", 
+    "Strength": 85,
+    "Speed": 80
+}
+
+hero_list = [hero_0, hero_1]
+print (hero_list)
+
 if "Name" in hero_0:
     print("The superhero's name is:", hero_0["Name"])
 else:
